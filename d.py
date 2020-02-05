@@ -92,8 +92,8 @@ def usage():
 	Pukulan Syzu Topia :v Script v.1
 	Pembuat tidak bertanggung jawab jika digunakan untuk melawan hukum.
 	Pembuat tidak bertanggung jawab jika Anda Di DDOS KEMBALI.
-	cara pakai :ketik  python s.py -s ip nya -p 80 -t 135
-	contoh : python s.py -s 192.168.0.1 -p 80 -t 135	
+	cara pakai :ketik  python d.py -s ip nya -p 80 -t 135
+	contoh : python d.py -s 192.168.0.1 -p 80 -t 135	
 	-h : help
 	-s : alamat ip target
 	-p : port target, contoh 80
@@ -132,7 +132,7 @@ def get_parameters():
 
 # reading headers
 global data
-headers = open("s.py", "r")
+headers = open("d.py", "r")
 data = headers.read()
 headers.close()
 #task queue are q,w
